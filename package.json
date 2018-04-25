@@ -1,0 +1,23 @@
+{
+  "name": "rudebot",
+  "version": "1.0.0",
+  "description": "rudebot for test",
+  "main": "jokes.js",
+  "scripts": {
+    "start": "nodemon jokes.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cron": "^1.2.1",
+    "html-entities": "^1.2.0",
+    "moment": "^2.17.1",
+    "mysql": "^2.13.0",
+    "node-datetime": "^1.0.0",
+    "node-telegram-bot-api": "^0.27.0",
+    "nodemon": "^1.11.0",
+    "pm2": "^2.4.2",
+    "random-js": "^1.0.8",
+    "request": "^2.81.0"
+  }
+}
